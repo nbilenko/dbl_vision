@@ -1,4 +1,5 @@
 from matplotlib.pyplot import imread
+from scipy.misc import imresize
 import numpy as np
 
 stimdir = "/auto/k2/stimuli/movies/"
@@ -7,13 +8,13 @@ outdir = "/auto/k6/nbilenko/preproc_data/movies/"
 
 runs = {"trn": [stimdir+"trn%03d/" % i for i in range(1, 13)], "val": [stimdir+"val%03d_3min/" % i for i in range(1, 4)]}
 stim_nums = {"trn": 9001, "val": 2701}
-imsize = (512, 512, 3)
+imsize = (128, 128, 3)
 
 for stim_type in ("trn", "val"):
 	images = []
 	for ri, run in enumerate(runs[stim_type]):
 		for imnum in range(stim_nums[stim_type]):
-			images.append(imread(run+imname % imnum).reshape(np.product(imsize)))
+			images.append(imresize(imread(run+imname % imnum), 0.25).reshape(np.product(imsize)))
 		images = np.array(images)
 		np.save(outdir+"%s%03d_stim.npy" % (stim_type, ri), images)
 
