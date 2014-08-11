@@ -1,4 +1,5 @@
 from matplotlib.pyplot import imread
+import numpy as np
 
 stimdir = "/auto/k2/stimuli/movies/"
 imname = "im%07d.png"
