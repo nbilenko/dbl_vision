@@ -10,11 +10,11 @@ imsize = (512, 512, 3)
 
 for stim_type in ("trn", "val"):
 	images = []
-	for run in runs[stim_type]:
+	for ri, run in enumerate(runs[stim_type]):
 		for imnum in range(stim_nums[stim_type]):
 			images.append(imread(run+imname % imnum).reshape(np.product(imsize)))
-	images = np.array(images)
-	np.save(outdir+"%s_stim.npy" % stim_type, images)
+		images = np.array(images)
+		np.save(outdir+"%s%03d_stim.npy" % (stim_type, ri), images)
 
 
 # import movie_utils
