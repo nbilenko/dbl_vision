@@ -11,8 +11,8 @@ stim_nums = {"trn": 9001, "val": 2701}
 imsize = (128, 128, 3)
 
 for stim_type in ("trn", "val"):
-	images = []
 	for ri, run in enumerate(runs[stim_type]):
+		images = []
 		for imnum in range(stim_nums[stim_type]):
 			images.append(imresize(imread(run+imname % imnum), 0.25).reshape(np.product(imsize)))
 		images = np.array(images)
