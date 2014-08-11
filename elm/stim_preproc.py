@@ -2,7 +2,7 @@ from matplotlib.pyplot import imread
 
 stimdir = "/auto/k2/stimuli/movies/"
 imname = "im%07d.png"
-outdir = "/auto/k8/nbilenko/preproc_data/movies/"
+outdir = "/auto/k6/nbilenko/preproc_data/movies/"
 
 runs = {"trn": [stimdir+"trn%03d/" % i for i in range(1, 13)], "val": [stimdir+"val%03d_3min/" % i for i in range(1, 4)]}
 stim_nums = {"trn": 9001, "val": 2701}
@@ -14,7 +14,7 @@ for stim_type in ("trn", "val"):
 		for imnum in range(stim_nums[stim_type]):
 			images.append(imread(run+imname % imnum).reshape(np.product(imsize)))
 	images = np.array(images)
-	np.save("%s_stim.npy" % stim_type, images)
+	np.save(outdir+"%s_stim.npy" % stim_type, images)
 
 
 # import movie_utils
