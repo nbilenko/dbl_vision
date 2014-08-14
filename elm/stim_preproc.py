@@ -14,9 +14,10 @@ imsize = (64, 64)
 for stim_type in ("trn", "val"):
 	images = []
 	for ri, run in enumerate(runs[stim_type]):
+		print "Run %d of %s" % (ri, stim_type)
 		for imnum in range(stim_nums[stim_type]):
 			images.append(rgb_to_hsv(imresize(imread(run+imname % imnum), 0.125))[:, :, 2].reshape(np.product(imsize)))
-		images = np.array(images)
+	images = np.array(images)
 	np.save(outdir+"%s_stim.npy" % (stim_type), images)
 
 
