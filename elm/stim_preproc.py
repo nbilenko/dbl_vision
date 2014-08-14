@@ -1,6 +1,7 @@
 from matplotlib.pyplot import imread
 from scipy.misc import imresize
 import numpy as np
+from matplotlib.colors import rgb_to_hsv
 
 stimdir = "/auto/k2/stimuli/movies/"
 imname = "im%07d.png"
@@ -8,15 +9,15 @@ outdir = "/auto/k6/nbilenko/preproc_data/movie/"
 
 runs = {"trn": [stimdir+"trn%03d/" % i for i in range(1, 13)], "val": [stimdir+"val%03d_3min/" % i for i in range(1, 4)]}
 stim_nums = {"trn": 9001, "val": 2701}
-imsize = (128, 128, 3)
+imsize = (64, 64)
 
 for stim_type in ("trn", "val"):
+	images = []
 	for ri, run in enumerate(runs[stim_type]):
-		images = []
 		for imnum in range(stim_nums[stim_type]):
-			images.append(imresize(imread(run+imname % imnum), 0.25).reshape(np.product(imsize)))
+			images.append(rgb_to_hsv(imresize(imread(run+imname % imnum), 0.125))[:, :, 2].reshape(np.product(imsize)))
 		images = np.array(images)
-		np.save(outdir+"%s%03d_stim.npy" % (stim_type, ri+1), images)
+	np.save(outdir+"%s_stim.npy" % (stim_type), images)
 
 
 # import movie_utils
