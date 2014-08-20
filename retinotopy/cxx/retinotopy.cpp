@@ -28,13 +28,13 @@ using namespace std;
 #define PI 3.141592653589793
 
 /* time interval between captures (usec) */
-#define CAPTURE_INTERVAL 250000
+#define CAPTURE_INTERVAL 10000
 
 /* retinotopy binning  */
 #define NUM_BINS_ANG 8
 #define NUM_BINS_ECC 4
-#define ACC_OK_RIGHT(i) (i <= 1 || i >= 6)
-#define ACC_OK_LEFT(i)  (i >= 2 || i <= 5)
+#define ANG_OK_RIGHT(i) (i <= 1 || i >= 6)
+#define ANG_OK_LEFT(i)  (i >= 2 && i <= 5)
 
 /* level for a node with no data */
 #define NODE_NO_DATA -1.0
@@ -241,7 +241,7 @@ class Retinotopy
         int ib = pixel_eccentricity_right[ipx];
         int jb = pixel_angle_right[ipx];
         // make sure we're within a reasonable eccentricity
-        if (ib < NUM_BINS_ECC && ACC_OK_RIGHT(jb)) {
+        if (ib < NUM_BINS_ECC && ANG_OK_RIGHT(jb)) {
           mean[ib * NUM_BINS_ANG + jb]  += image_right.at<uchar>(i,j);
           count[ib * NUM_BINS_ANG + jb] += 1;
         }
@@ -255,7 +255,7 @@ class Retinotopy
         int ib = pixel_eccentricity_left[ipx];
         int jb = pixel_angle_left[ipx];
         // make sure we're within a reasonable eccentricity
-        if (ib < NUM_BINS_ECC && ACC_OK_LEFT(jb)) {
+        if (ib < NUM_BINS_ECC && ANG_OK_LEFT(jb)) {
           mean[ib * NUM_BINS_ANG + jb]  += image_left.at<uchar>(i,j);
           count[ib * NUM_BINS_ANG + jb] += 1;
         }
@@ -298,9 +298,10 @@ class Retinotopy
       return 1;
     Mat image_left_gray,
         image_right_gray;
-    cvtColor(image_left,  image_left_gray,  CV_BGR2GRAY);
-    cvtColor(image_right, image_right_gray, CV_BGR2GRAY);
-    return run_binning(image_left_gray, image_left_gray);
+    //cvtColor(image_left,  image_left_gray,  CV_BGR2GRAY);
+    //cvtColor(image_right, image_right_gray, CV_BGR2GRAY);
+    //return run_binning(image_left_gray, image_right_gray);
+    return run_binning(image_left, image_right);
   }
 };
 
@@ -336,16 +337,17 @@ main(int argc, char** argv)
 
     // DEBUGGING
     // using primary camera input as a standin for dual VideoCaptures
-    vcap_l.open(0);
-    vcap_r = vcap_l;
+    //vcap_l.open(0);
+    //vcap_r = vcap_l;
 
-    /*if (! vcap_l.open(cam_url_l) || ! vcap_r.open(cam_url_r)) {
+    if (! vcap_l.open(cam_url_l) || ! vcap_r.open(cam_url_r)) {
       if (vcap_l.isOpened())
         vcap_l.release();
       if (vcap_r.isOpened())
         vcap_r.release();
+      printf("Warning: no capture - retrying ...\n");
       continue;
-    }*/
+    }
 
     Retinotopy ret(node_file, mux_host, mux_port);
     while (ret.update(vcap_l, vcap_r) == 0)
