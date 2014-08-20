@@ -1,0 +1,3162 @@
+[
+    {
+        "connected_nodes": [
+            "WET", 
+            "BRO", 
+            "EYE", 
+            "DUI", 
+            "IVY", 
+            "FIX", 
+            "YES", 
+            "SUN", 
+            "POP", 
+            "EON", 
+            "NOM", 
+            "HIT"
+        ], 
+        "location": [
+            -40.465365687086354, 
+            88.721001190362472, 
+            29.866029257910174
+        ], 
+        "name": "ACE"
+    }, 
+    {
+        "connected_nodes": [
+            "BUG", 
+            "ASH", 
+            "LAM", 
+            "TRY", 
+            "DUH", 
+            "NAN", 
+            "TAU", 
+            "SOY", 
+            "HAM", 
+            "LAX"
+        ], 
+        "location": [
+            25.083756201936978, 
+            -54.814965109467906, 
+            55.387334632526326
+        ], 
+        "name": "ACT"
+    }, 
+    {
+        "connected_nodes": [
+            "JOB", 
+            "DUB", 
+            "BOA", 
+            "WET", 
+            "REF", 
+            "TOY", 
+            "NIL", 
+            "NAY", 
+            "WAR", 
+            "HOW", 
+            "ELF", 
+            "PLY"
+        ], 
+        "location": [
+            -91.875393560358972, 
+            12.170702209660249, 
+            44.278754461267816
+        ], 
+        "name": "ADO"
+    }, 
+    {
+        "connected_nodes": [
+            "KIT", 
+            "BED", 
+            "CHI", 
+            "DOG", 
+            "COY", 
+            "BAR", 
+            "SIR", 
+            "CUP", 
+            "ONO", 
+            "ELK"
+        ], 
+        "location": [
+            44.405146831058893, 
+            -94.572551389665534, 
+            -41.326152572233973
+        ], 
+        "name": "AGE"
+    }, 
+    {
+        "connected_nodes": [
+            "ALA", 
+            "MIX", 
+            "OAR", 
+            "TAX", 
+            "MOM", 
+            "FLY", 
+            "OIL", 
+            "GUT"
+        ], 
+        "location": [
+            -97.425082681196784, 
+            -79.84358449643122, 
+            -31.788874799871277
+        ], 
+        "name": "AGO"
+    }, 
+    {
+        "connected_nodes": [
+            "NIL", 
+            "YES", 
+            "ERA", 
+            "IRE", 
+            "JUG", 
+            "EON"
+        ], 
+        "location": [
+            -33.57067105628839, 
+            36.432868257955619, 
+            78.257786433543856
+        ], 
+        "name": "AHI"
+    }, 
+    {
+        "connected_nodes": [
+            "MOM", 
+            "LID", 
+            "EGO", 
+            "WAX", 
+            "MIX"
+        ], 
+        "location": [
+            -91.820916363845839, 
+            -87.026703473733718, 
+            -97.576504136196419
+        ], 
+        "name": "AIM"
+    }, 
+    {
+        "connected_nodes": [
+            "COW", 
+            "GIG", 
+            "ODD", 
+            "MAC", 
+            "FAX", 
+            "FIX"
+        ], 
+        "location": [
+            35.415140091756335, 
+            75.9945263615475, 
+            58.07301102523477
+        ], 
+        "name": "AIR"
+    }, 
+    {
+        "connected_nodes": [
+            "OIL", 
+            "INK", 
+            "AGO", 
+            "FLY", 
+            "GUT", 
+            "MIX"
+        ], 
+        "location": [
+            -121.5405632425576, 
+            -80.925873867616701, 
+            -22.798365542214462
+        ], 
+        "name": "ALA"
+    }, 
+    {
+        "connected_nodes": [
+            "PRO", 
+            "GOO", 
+            "EGG", 
+            "SAD", 
+            "RUG", 
+            "PIG"
+        ], 
+        "location": [
+            130.34164718471581, 
+            -20.779063511583246, 
+            27.541903139929477
+        ], 
+        "name": "ALL"
+    }, 
+    {
+        "connected_nodes": [
+            "ROB", 
+            "SEX", 
+            "YAY", 
+            "SAW", 
+            "CAB"
+        ], 
+        "location": [
+            119.28602471742789, 
+            55.797831907110726, 
+            -43.513133521806836
+        ], 
+        "name": "AMP"
+    }, 
+    {
+        "connected_nodes": [
+            "ELF", 
+            "BRO", 
+            "BIO", 
+            "WET", 
+            "DUB", 
+            "NOM"
+        ], 
+        "location": [
+            -101.1836075616437, 
+            67.814671815385807, 
+            21.963822521941289
+        ], 
+        "name": "ARM"
+    }, 
+    {
+        "connected_nodes": [
+            "COY", 
+            "FIG", 
+            "KIT", 
+            "ASH", 
+            "MAD", 
+            "LAX", 
+            "NOR", 
+            "BUG"
+        ], 
+        "location": [
+            65.314288326482739, 
+            -93.639376343125889, 
+            28.616295219892169
+        ], 
+        "name": "ART"
+    }, 
+    {
+        "connected_nodes": [
+            "ACT", 
+            "LAM", 
+            "LAX", 
+            "ART", 
+            "HAM", 
+            "BUG"
+        ], 
+        "location": [
+            39.749206960912062, 
+            -80.559641679768461, 
+            55.815127257312191
+        ], 
+        "name": "ASH"
+    }, 
+    {
+        "connected_nodes": [
+            "FRO", 
+            "ORC", 
+            "GUN", 
+            "TUB", 
+            "OFF", 
+            "TAG"
+        ], 
+        "location": [
+            -65.069222554268791, 
+            122.16183469328905, 
+            -58.465700080630768
+        ], 
+        "name": "ASK"
+    }, 
+    {
+        "connected_nodes": [
+            "ETA", 
+            "CIS", 
+            "BOY", 
+            "WIN", 
+            "BAM"
+        ], 
+        "location": [
+            20.781588959969017, 
+            107.67163802333714, 
+            -74.03170628096376
+        ], 
+        "name": "BAH"
+    }, 
+    {
+        "connected_nodes": [
+            "JAR", 
+            "BAH", 
+            "YAY", 
+            "HAY", 
+            "ETA", 
+            "CIS", 
+            "WIN"
+        ], 
+        "location": [
+            40.167136427653588, 
+            77.107311060585204, 
+            -76.115481865668869
+        ], 
+        "name": "BAM"
+    }, 
+    {
+        "connected_nodes": [
+            "CUP", 
+            "SIR", 
+            "AGE", 
+            "FLU", 
+            "DOG", 
+            "ONO"
+        ], 
+        "location": [
+            37.072455973547612, 
+            -113.10735481377496, 
+            -65.040155802092087
+        ], 
+        "name": "BAR"
+    }, 
+    {
+        "connected_nodes": [
+            "ICE", 
+            "DOG", 
+            "COY", 
+            "MAD", 
+            "SAY", 
+            "GIN", 
+            "CHI", 
+            "AGE", 
+            "PAW", 
+            "CUP", 
+            "LAX", 
+            "DAY"
+        ], 
+        "location": [
+            12.820596739687669, 
+            -103.04407258951338, 
+            -9.6323739712626217
+        ], 
+        "name": "BED"
+    }, 
+    {
+        "connected_nodes": [
+            "ELF", 
+            "JOY", 
+            "ARM", 
+            "NOM", 
+            "RAD", 
+            "SPY"
+        ], 
+        "location": [
+            -108.20328957705755, 
+            68.104432771773688, 
+            -13.148568477806569
+        ], 
+        "name": "BIO"
+    }, 
+    {
+        "connected_nodes": [
+            "REF", 
+            "ADO", 
+            "WAR", 
+            "SHY", 
+            "NAY", 
+            "HOW"
+        ], 
+        "location": [
+            -117.92753750762104, 
+            -5.929091740222499, 
+            38.700683916988332
+        ], 
+        "name": "BOA"
+    }, 
+    {
+        "connected_nodes": [
+            "HUG", 
+            "GYM", 
+            "LID", 
+            "EGO", 
+            "VAN"
+        ], 
+        "location": [
+            -42.929669451651733, 
+            -106.0301567121542, 
+            -97.02009934734707
+        ], 
+        "name": "BOX"
+    }, 
+    {
+        "connected_nodes": [
+            "FOX", 
+            "BAH", 
+            "ETA", 
+            "TAG", 
+            "CIS", 
+            "ORC"
+        ], 
+        "location": [
+            -6.2987087236836832, 
+            122.53247107070261, 
+            -60.566664182255991
+        ], 
+        "name": "BOY"
+    }, 
+    {
+        "connected_nodes": [
+            "ARM", 
+            "ACE", 
+            "WET", 
+            "EON", 
+            "HIT", 
+            "NOM"
+        ], 
+        "location": [
+            -75.596563120215365, 
+            86.83644482174374, 
+            35.480017601784432
+        ], 
+        "name": "BRO"
+    }, 
+    {
+        "connected_nodes": [
+            "YAK", 
+            "ACT", 
+            "LAB", 
+            "TAU", 
+            "LAM", 
+            "ZAP", 
+            "NOR", 
+            "LAX", 
+            "COY", 
+            "ASH", 
+            "GOO", 
+            "FIG", 
+            "ART"
+        ], 
+        "location": [
+            69.943349370316795, 
+            -64.081833379152954, 
+            42.863826706405405
+        ], 
+        "name": "BUG"
+    }, 
+    {
+        "connected_nodes": [
+            "ROB", 
+            "DAD", 
+            "YAY", 
+            "AMP", 
+            "OAK", 
+            "GET", 
+            "SEX"
+        ], 
+        "location": [
+            123.69921755212125, 
+            26.350353743816417, 
+            -41.234889798748995
+        ], 
+        "name": "CAB"
+    }, 
+    {
+        "connected_nodes": [
+            "MAD", 
+            "COY", 
+            "BED", 
+            "AGE", 
+            "DOG", 
+            "KIT"
+        ], 
+        "location": [
+            43.748908877260405, 
+            -112.3336778191988, 
+            -14.294638645717598
+        ], 
+        "name": "CHI"
+    }, 
+    {
+        "connected_nodes": [
+            "BAH", 
+            "ORC", 
+            "ETA", 
+            "TAG", 
+            "BOY", 
+            "OFF", 
+            "BAM"
+        ], 
+        "location": [
+            -9.6469340038692568, 
+            95.211127970162536, 
+            -75.533012515812231
+        ], 
+        "name": "CIS"
+    }, 
+    {
+        "connected_nodes": [
+            "WOW", 
+            "USE", 
+            "NEW", 
+            "TAT", 
+            "GET", 
+            "ELK"
+        ], 
+        "location": [
+            110.58770081424588, 
+            -40.800005787994962, 
+            -43.458608783846586
+        ], 
+        "name": "COP"
+    }, 
+    {
+        "connected_nodes": [
+            "KEG", 
+            "WAS", 
+            "ODD", 
+            "AIR", 
+            "LIE", 
+            "LUG", 
+            "FIX", 
+            "EAR", 
+            "GIG", 
+            "TAR", 
+            "ZOO", 
+            "FAX"
+        ], 
+        "location": [
+            60.269333046595364, 
+            64.059862741056776, 
+            37.159985139037694
+        ], 
+        "name": "COW"
+    }, 
+    {
+        "connected_nodes": [
+            "LAX", 
+            "NOR", 
+            "ART", 
+            "BED", 
+            "ELK", 
+            "CHI", 
+            "BUG", 
+            "AGE", 
+            "KIT", 
+            "MAD"
+        ], 
+        "location": [
+            55.833699693835584, 
+            -85.324583606635059, 
+            1.9264716832191633
+        ], 
+        "name": "COY"
+    }, 
+    {
+        "connected_nodes": [
+            "VAN", 
+            "DOG", 
+            "BAR", 
+            "DAY", 
+            "FLU", 
+            "BED", 
+            "HUG", 
+            "SIR", 
+            "AGE", 
+            "GYM", 
+            "PAW"
+        ], 
+        "location": [
+            4.9665115947183285, 
+            -105.54500362726552, 
+            -58.54899067206722
+        ], 
+        "name": "CUP"
+    }, 
+    {
+        "connected_nodes": [
+            "GEL", 
+            "FOR", 
+            "EAR", 
+            "RUG", 
+            "PIG", 
+            "ROB", 
+            "SEX", 
+            "CAB", 
+            "EGG", 
+            "GET", 
+            "OAK", 
+            "MOO"
+        ], 
+        "location": [
+            148.1657866271245, 
+            21.567626780396353, 
+            5.2728145471359094
+        ], 
+        "name": "DAD"
+    }, 
+    {
+        "connected_nodes": [
+            "TAX", 
+            "PAW", 
+            "SAY", 
+            "ZIG", 
+            "CUP", 
+            "GIN", 
+            "BED", 
+            "GYM"
+        ], 
+        "location": [
+            -26.209360692417608, 
+            -97.938080102165884, 
+            -26.330107778818352
+        ], 
+        "name": "DAY"
+    }, 
+    {
+        "connected_nodes": [
+            "GUN", 
+            "NOM", 
+            "HIT", 
+            "DUI", 
+            "JOY", 
+            "TUB"
+        ], 
+        "location": [
+            -82.886354510196, 
+            110.23987547074238, 
+            -11.546450112401956
+        ], 
+        "name": "DIG"
+    }, 
+    {
+        "connected_nodes": [
+            "CUP", 
+            "BED", 
+            "CHI", 
+            "AGE", 
+            "PAW", 
+            "BAR"
+        ], 
+        "location": [
+            25.40688206773245, 
+            -119.36750150748757, 
+            -36.520104706880488
+        ], 
+        "name": "DOG"
+    }, 
+    {
+        "connected_nodes": [
+            "OIL", 
+            "VOW", 
+            "REF", 
+            "SHY", 
+            "FLY", 
+            "FUN"
+        ], 
+        "location": [
+            -101.92735677418106, 
+            -64.15799441390628, 
+            30.10305446924335
+        ], 
+        "name": "DRY"
+    }, 
+    {
+        "connected_nodes": [
+            "ADO", 
+            "ARM", 
+            "TOY", 
+            "WAR", 
+            "WET", 
+            "ELF"
+        ], 
+        "location": [
+            -102.54175324580568, 
+            43.997507471233142, 
+            39.123566403091836
+        ], 
+        "name": "DUB"
+    }, 
+    {
+        "connected_nodes": [
+            "TRY", 
+            "NAN", 
+            "MOP", 
+            "SOY", 
+            "ACT", 
+            "HAM"
+        ], 
+        "location": [
+            -1.7402943477430077, 
+            -57.895310190211383, 
+            72.91518867879519
+        ], 
+        "name": "DUH"
+    }, 
+    {
+        "connected_nodes": [
+            "ACE", 
+            "HIT", 
+            "SKY", 
+            "TUB", 
+            "GUN", 
+            "SUN", 
+            "DIG", 
+            "TAG", 
+            "IVY", 
+            "NOM"
+        ], 
+        "location": [
+            -53.309750545369248, 
+            106.93725690418943, 
+            -7.7961116226539726
+        ], 
+        "name": "DUI"
+    }, 
+    {
+        "connected_nodes": [
+            "MOO", 
+            "GEL", 
+            "PIG", 
+            "LIE", 
+            "JAM", 
+            "WAS", 
+            "DAD", 
+            "COW", 
+            "ZOO", 
+            "SEX", 
+            "TAR", 
+            "PHI"
+        ], 
+        "location": [
+            110.04306516970905, 
+            47.806463329955058, 
+            32.251869554663642
+        ], 
+        "name": "EAR"
+    }, 
+    {
+        "connected_nodes": [
+            "RUG", 
+            "ALL", 
+            "PIG", 
+            "FOR", 
+            "MOO", 
+            "DAD"
+        ], 
+        "location": [
+            119.01511403939097, 
+            11.521748727342818, 
+            17.647548624435753
+        ], 
+        "name": "EGG"
+    }, 
+    {
+        "connected_nodes": [
+            "GYM", 
+            "MOM", 
+            "AIM", 
+            "BOX", 
+            "LID", 
+            "OAR"
+        ], 
+        "location": [
+            -70.441262620868727, 
+            -103.20751625414189, 
+            -85.595408668023069
+        ], 
+        "name": "EGO"
+    }, 
+    {
+        "connected_nodes": [
+            "BIO", 
+            "ARM", 
+            "WET", 
+            "SPY", 
+            "PIE", 
+            "GAL", 
+            "WAR", 
+            "RAD", 
+            "ADO", 
+            "HOW", 
+            "NOM", 
+            "DUB"
+        ], 
+        "location": [
+            -102.32698843677568, 
+            41.825031209226864, 
+            3.0476617831466823
+        ], 
+        "name": "ELF"
+    }, 
+    {
+        "connected_nodes": [
+            "WIG", 
+            "SIR", 
+            "NOR", 
+            "COY", 
+            "USE", 
+            "KIT", 
+            "TAT", 
+            "WOW", 
+            "ONO", 
+            "COP", 
+            "AGE"
+        ], 
+        "location": [
+            83.531130503934122, 
+            -74.937700510988321, 
+            -37.047163864414507
+        ], 
+        "name": "ELK"
+    }, 
+    {
+        "connected_nodes": [
+            "YES", 
+            "WET", 
+            "POP", 
+            "BRO", 
+            "NIL", 
+            "ACE", 
+            "AHI", 
+            "TOY"
+        ], 
+        "location": [
+            -52.165490086362922, 
+            63.754986588376021, 
+            60.655631984500268
+        ], 
+        "name": "EON"
+    }, 
+    {
+        "connected_nodes": [
+            "IRE", 
+            "JUG", 
+            "RIB", 
+            "AHI", 
+            "YES", 
+            "SOY", 
+            "NIL", 
+            "GIG", 
+            "PLY", 
+            "LAW"
+        ], 
+        "location": [
+            -14.577620059195654, 
+            13.293040766200418, 
+            68.933694190140073
+        ], 
+        "name": "ERA"
+    }, 
+    {
+        "connected_nodes": [
+            "BAH", 
+            "TUX", 
+            "BOY", 
+            "LUG", 
+            "CIS", 
+            "IVY", 
+            "FOX", 
+            "PAY", 
+            "TAG", 
+            "BAM", 
+            "JAR", 
+            "WIN"
+        ], 
+        "location": [
+            17.040966806820226, 
+            107.72548587404874, 
+            -41.200341835371859
+        ], 
+        "name": "ETA"
+    }, 
+    {
+        "connected_nodes": [
+            "LAW", 
+            "FAX", 
+            "OLD", 
+            "GIG", 
+            "IRE", 
+            "LIE"
+        ], 
+        "location": [
+            46.684324043495437, 
+            32.480791405141318, 
+            82.85568263645969
+        ], 
+        "name": "EVE"
+    }, 
+    {
+        "connected_nodes": [
+            "ACE", 
+            "GAS", 
+            "SUN", 
+            "FIX", 
+            "IVY", 
+            "POP"
+        ], 
+        "location": [
+            -11.177372933716084, 
+            107.20367217345796, 
+            30.727960748241149
+        ], 
+        "name": "EYE"
+    }, 
+    {
+        "connected_nodes": [
+            "VOW", 
+            "MOP", 
+            "PLY", 
+            "FUN", 
+            "ZZZ", 
+            "NAN"
+        ], 
+        "location": [
+            -51.921910115402852, 
+            -59.44903684330054, 
+            60.336891960254043
+        ], 
+        "name": "FAN"
+    }, 
+    {
+        "connected_nodes": [
+            "ZOO", 
+            "EVE", 
+            "LIE", 
+            "AIR", 
+            "GIG", 
+            "COW"
+        ], 
+        "location": [
+            58.553739682494054, 
+            54.346680585240364, 
+            68.216291453374197
+        ], 
+        "name": "FAX"
+    }, 
+    {
+        "connected_nodes": [
+            "HOW", 
+            "PIE", 
+            "RUM", 
+            "GAL", 
+            "SHY"
+        ], 
+        "location": [
+            -111.82995993493826, 
+            -7.5088988613634591, 
+            -16.96030795122423
+        ], 
+        "name": "FEW"
+    }, 
+    {
+        "connected_nodes": [
+            "KEY", 
+            "GOO", 
+            "NOR", 
+            "YAK", 
+            "ART", 
+            "BUG"
+        ], 
+        "location": [
+            103.18335701947149, 
+            -77.527115190303419, 
+            38.792969730072109
+        ], 
+        "name": "FIG"
+    }, 
+    {
+        "connected_nodes": [
+            "MAC", 
+            "ODD", 
+            "POP", 
+            "IVY", 
+            "GAS", 
+            "ACE", 
+            "EYE", 
+            "COW", 
+            "AIR", 
+            "GIG", 
+            "LUG", 
+            "YES"
+        ], 
+        "location": [
+            10.383716717157141, 
+            81.190371837362008, 
+            34.690033669925896
+        ], 
+        "name": "FIX"
+    }, 
+    {
+        "connected_nodes": [
+            "HUG", 
+            "SIR", 
+            "CUP", 
+            "BAR", 
+            "VAN"
+        ], 
+        "location": [
+            15.053739849761399, 
+            -111.35023694602498, 
+            -86.977829063840332
+        ], 
+        "name": "FLU"
+    }, 
+    {
+        "connected_nodes": [
+            "OIL", 
+            "VOW", 
+            "ALA", 
+            "DRY", 
+            "OAR", 
+            "TAX", 
+            "AGO", 
+            "WIZ"
+        ], 
+        "location": [
+            -95.359530594681317, 
+            -91.200226377312845, 
+            1.4213506339232342
+        ], 
+        "name": "FLY"
+    }, 
+    {
+        "connected_nodes": [
+            "TAU", 
+            "LAW", 
+            "TRY", 
+            "RIB", 
+            "SOY", 
+            "OLD"
+        ], 
+        "location": [
+            27.423036771045396, 
+            -16.074456033282924, 
+            90.476869104319803
+        ], 
+        "name": "FOG"
+    }, 
+    {
+        "connected_nodes": [
+            "OAK", 
+            "GET", 
+            "RUG", 
+            "EGG", 
+            "DAD", 
+            "HIP"
+        ], 
+        "location": [
+            126.58837687741274, 
+            4.4836128206111932, 
+            -18.534155321519155
+        ], 
+        "name": "FOR"
+    }, 
+    {
+        "connected_nodes": [
+            "BOY", 
+            "SKY", 
+            "IVY", 
+            "ETA", 
+            "TUX", 
+            "TAG"
+        ], 
+        "location": [
+            -6.3779991110802623, 
+            126.94446350721741, 
+            -27.270000159259226
+        ], 
+        "name": "FOX"
+    }, 
+    {
+        "connected_nodes": [
+            "RAW", 
+            "ASK", 
+            "OFF", 
+            "WHO", 
+            "GUN"
+        ], 
+        "location": [
+            -93.058066771705413, 
+            110.61894638216873, 
+            -72.506689488903902
+        ], 
+        "name": "FRO"
+    }, 
+    {
+        "connected_nodes": [
+            "NAY", 
+            "FAN", 
+            "PLY", 
+            "REF", 
+            "VOW", 
+            "DRY"
+        ], 
+        "location": [
+            -81.815900559718017, 
+            -48.34958665495391, 
+            54.579964726415838
+        ], 
+        "name": "FUN"
+    }, 
+    {
+        "connected_nodes": [
+            "PIE", 
+            "HOW", 
+            "WAR", 
+            "RAD", 
+            "ELF", 
+            "FEW"
+        ], 
+        "location": [
+            -125.43600253351794, 
+            22.835300166859795, 
+            -7.1602043695975475
+        ], 
+        "name": "GAL"
+    }, 
+    {
+        "connected_nodes": [
+            "IVY", 
+            "EYE", 
+            "FIX", 
+            "ODD", 
+            "LUG", 
+            "TUX"
+        ], 
+        "location": [
+            16.361646968160564, 
+            109.89286137041454, 
+            20.195598371391746
+        ], 
+        "name": "GAS"
+    }, 
+    {
+        "connected_nodes": [
+            "SEX", 
+            "DAD", 
+            "EAR", 
+            "PHI", 
+            "ROB", 
+            "MOO"
+        ], 
+        "location": [
+            140.38977229254664, 
+            55.246884884748724, 
+            14.801459004462973
+        ], 
+        "name": "GEL"
+    }, 
+    {
+        "connected_nodes": [
+            "OAK", 
+            "HIP", 
+            "FOR", 
+            "RUG", 
+            "WOW", 
+            "NEW", 
+            "DAD", 
+            "COP", 
+            "CAB"
+        ], 
+        "location": [
+            148.18968183643378, 
+            -11.437645884343508, 
+            -38.374134144442152
+        ], 
+        "name": "GET"
+    }, 
+    {
+        "connected_nodes": [
+            "IRE", 
+            "AIR", 
+            "EVE", 
+            "ERA", 
+            "YES", 
+            "LIE", 
+            "MAC", 
+            "COW", 
+            "FIX", 
+            "FAX", 
+            "LAW"
+        ], 
+        "location": [
+            25.41130159467869, 
+            46.08450337719183, 
+            60.410702382202608
+        ], 
+        "name": "GIG"
+    }, 
+    {
+        "connected_nodes": [
+            "WIZ", 
+            "SAY", 
+            "NAN", 
+            "LAX", 
+            "TAX", 
+            "BED", 
+            "ICE", 
+            "DAY", 
+            "ZZZ", 
+            "VOW", 
+            "HAM"
+        ], 
+        "location": [
+            -28.247103587954854, 
+            -94.774158961140358, 
+            17.655285311276565
+        ], 
+        "name": "GIN"
+    }, 
+    {
+        "connected_nodes": [
+            "FIG", 
+            "PRO", 
+            "ZAP", 
+            "ALL", 
+            "YAK", 
+            "RUG", 
+            "BUG", 
+            "NOR", 
+            "KEY", 
+            "SAD", 
+            "PIG", 
+            "WOW"
+        ], 
+        "location": [
+            120.98288228133916, 
+            -49.545476640593257, 
+            34.708678493164399
+        ], 
+        "name": "GOO"
+    }, 
+    {
+        "connected_nodes": [
+            "JOY", 
+            "DIG", 
+            "RAW", 
+            "DUI", 
+            "ASK", 
+            "WHO", 
+            "OFF", 
+            "NOM", 
+            "SPY", 
+            "TAG", 
+            "TUB", 
+            "FRO"
+        ], 
+        "location": [
+            -89.194186683867869, 
+            105.83180284059334, 
+            -41.389773953044404
+        ], 
+        "name": "GUN"
+    }, 
+    {
+        "connected_nodes": [
+            "INK", 
+            "MAY", 
+            "HEX", 
+            "WAX", 
+            "MIX", 
+            "RUM", 
+            "SIP", 
+            "OIL", 
+            "ALA", 
+            "AGO", 
+            "MOM"
+        ], 
+        "location": [
+            -127.94320424250071, 
+            -62.046548316354531, 
+            -49.267763431292067
+        ], 
+        "name": "GUT"
+    }, 
+    {
+        "connected_nodes": [
+            "EGO", 
+            "BOX", 
+            "VAN", 
+            "TAX", 
+            "OAR", 
+            "PAW", 
+            "CUP", 
+            "HUG", 
+            "DAY", 
+            "MOM", 
+            "ZIG", 
+            "LID"
+        ], 
+        "location": [
+            -45.935031423693395, 
+            -104.76024253307214, 
+            -63.766207136846795
+        ], 
+        "name": "GYM"
+    }, 
+    {
+        "connected_nodes": [
+            "NAN", 
+            "LAX", 
+            "ZZZ", 
+            "ICE", 
+            "ASH", 
+            "ACT", 
+            "DUH", 
+            "GIN"
+        ], 
+        "location": [
+            -2.4533300882374163, 
+            -85.093457367178047, 
+            51.435390967112021
+        ], 
+        "name": "HAM"
+    }, 
+    {
+        "connected_nodes": [
+            "JAR", 
+            "WIN", 
+            "YAY", 
+            "BAM", 
+            "SAW"
+        ], 
+        "location": [
+            72.313746527845367, 
+            84.29252817433553, 
+            -62.540333426830848
+        ], 
+        "name": "HAY"
+    }, 
+    {
+        "connected_nodes": [
+            "GUT", 
+            "SIP", 
+            "MAY", 
+            "WAX", 
+            "MIX"
+        ], 
+        "location": [
+            -122.38888772971858, 
+            -43.073154431432371, 
+            -68.657088347397575
+        ], 
+        "name": "HEX"
+    }, 
+    {
+        "connected_nodes": [
+            "GET", 
+            "SAD", 
+            "WOW", 
+            "RUG", 
+            "NEW", 
+            "FOR"
+        ], 
+        "location": [
+            143.38743401611194, 
+            -27.537485975315015, 
+            -10.410417931527588
+        ], 
+        "name": "HIP"
+    }, 
+    {
+        "connected_nodes": [
+            "SUN", 
+            "BRO", 
+            "DUI", 
+            "DIG", 
+            "NOM", 
+            "ACE"
+        ], 
+        "location": [
+            -66.973672753831977, 
+            107.68030251120591, 
+            18.305325643776555
+        ], 
+        "name": "HIT"
+    }, 
+    {
+        "connected_nodes": [
+            "PRO", 
+            "PIG", 
+            "ZAP", 
+            "JAM", 
+            "OLD", 
+            "LIE"
+        ], 
+        "location": [
+            104.00589106497016, 
+            1.9330688247219543, 
+            72.307536254319317
+        ], 
+        "name": "HOT"
+    }, 
+    {
+        "connected_nodes": [
+            "GAL", 
+            "REF", 
+            "WAR", 
+            "FEW", 
+            "PIE", 
+            "ADO", 
+            "ELF", 
+            "RUM", 
+            "SHY", 
+            "BOA"
+        ], 
+        "location": [
+            -118.84554740937119, 
+            3.1278682984598833, 
+            8.0843708386430464
+        ], 
+        "name": "HOW"
+    }, 
+    {
+        "connected_nodes": [
+            "BOX", 
+            "FLU", 
+            "CUP", 
+            "GYM", 
+            "VAN", 
+            "SIR", 
+            "LID"
+        ], 
+        "location": [
+            -12.183124616086069, 
+            -93.078664606919745, 
+            -94.817856207212131
+        ], 
+        "name": "HUG"
+    }, 
+    {
+        "connected_nodes": [
+            "BED", 
+            "HAM", 
+            "MAD", 
+            "GIN", 
+            "SAY", 
+            "LAX"
+        ], 
+        "location": [
+            2.7993240925291989, 
+            -110.52531892551133, 
+            20.643951684203557
+        ], 
+        "name": "ICE"
+    }, 
+    {
+        "connected_nodes": [
+            "MAY", 
+            "GUT", 
+            "RUM", 
+            "OIL", 
+            "ALA", 
+            "SHY"
+        ], 
+        "location": [
+            -137.34930190893712, 
+            -56.978138977467204, 
+            -18.416870671412354
+        ], 
+        "name": "INK"
+    }, 
+    {
+        "connected_nodes": [
+            "GIG", 
+            "ERA", 
+            "YES", 
+            "AHI", 
+            "EVE", 
+            "MAC", 
+            "LAW", 
+            "RIB"
+        ], 
+        "location": [
+            3.5322356084120674, 
+            37.033303907470092, 
+            81.974375726009043
+        ], 
+        "name": "IRE"
+    }, 
+    {
+        "connected_nodes": [
+            "TUX", 
+            "GAS", 
+            "SUN", 
+            "SKY", 
+            "ACE", 
+            "FIX", 
+            "LUG", 
+            "EYE", 
+            "FOX", 
+            "DUI", 
+            "ETA", 
+            "TAG"
+        ], 
+        "location": [
+            -7.8896897153149057, 
+            104.47421034410637, 
+            -2.3807223959968731
+        ], 
+        "name": "IVY"
+    }, 
+    {
+        "connected_nodes": [
+            "HOT", 
+            "EAR", 
+            "ZOO", 
+            "PIG", 
+            "LIE", 
+            "MOO"
+        ], 
+        "location": [
+            111.81338843369902, 
+            31.252300924478625, 
+            61.601811105882923
+        ], 
+        "name": "JAM"
+    }, 
+    {
+        "connected_nodes": [
+            "TAR", 
+            "HAY", 
+            "WIN", 
+            "PAY", 
+            "LUG", 
+            "YAY", 
+            "BAM", 
+            "WHY", 
+            "SAW", 
+            "ETA"
+        ], 
+        "location": [
+            58.563820578994608, 
+            89.64217918310068, 
+            -37.616235689187825
+        ], 
+        "name": "JAR"
+    }, 
+    {
+        "connected_nodes": [
+            "ADO", 
+            "NAY", 
+            "NIL", 
+            "JUG", 
+            "TOY", 
+            "PLY"
+        ], 
+        "location": [
+            -74.169584592063998, 
+            2.4844162445824582, 
+            71.203216801954369
+        ], 
+        "name": "JOB"
+    }, 
+    {
+        "connected_nodes": [
+            "GUN", 
+            "BIO", 
+            "NOM", 
+            "SPY", 
+            "DIG", 
+            "RAW"
+        ], 
+        "location": [
+            -79.006289636159295, 
+            81.811176389882675, 
+            -27.965166383733045
+        ], 
+        "name": "JOY"
+    }, 
+    {
+        "connected_nodes": [
+            "ERA", 
+            "PLY", 
+            "RIB", 
+            "JOB", 
+            "NIL", 
+            "SOY", 
+            "AHI", 
+            "MOP"
+        ], 
+        "location": [
+            -37.147960829421741, 
+            -5.1485856082691823, 
+            81.809294300041472
+        ], 
+        "name": "JUG"
+    }, 
+    {
+        "connected_nodes": [
+            "WHY", 
+            "COW", 
+            "ODD", 
+            "TAR", 
+            "WAS", 
+            "LUG"
+        ], 
+        "location": [
+            68.478206923139311, 
+            92.348007364993933, 
+            20.595206147863699
+        ], 
+        "name": "KEG"
+    }, 
+    {
+        "connected_nodes": [
+            "WOW", 
+            "FIG", 
+            "NOR", 
+            "SAD", 
+            "WIG", 
+            "GOO"
+        ], 
+        "location": [
+            128.58123424684663, 
+            -73.504125784618026, 
+            13.699813910324654
+        ], 
+        "name": "KEY"
+    }, 
+    {
+        "connected_nodes": [
+            "AGE", 
+            "NOR", 
+            "ART", 
+            "COY", 
+            "CHI", 
+            "ELK", 
+            "WIG", 
+            "ONO"
+        ], 
+        "location": [
+            76.33929873792566, 
+            -99.971527436186548, 
+            -17.892262374601252
+        ], 
+        "name": "KIT"
+    }, 
+    {
+        "connected_nodes": [
+            "LAM", 
+            "TAU", 
+            "YAK", 
+            "BUG", 
+            "ZAP", 
+            "OLD"
+        ], 
+        "location": [
+            75.66258076000878, 
+            -44.864270296013579, 
+            72.933840142059694
+        ], 
+        "name": "LAB"
+    }, 
+    {
+        "connected_nodes": [
+            "TAU", 
+            "LAB", 
+            "ASH", 
+            "ACT", 
+            "BUG", 
+            "TRY"
+        ], 
+        "location": [
+            50.93739475957782, 
+            -57.583640374771846, 
+            71.645835868274688
+        ], 
+        "name": "LAM"
+    }, 
+    {
+        "connected_nodes": [
+            "RIB", 
+            "FOG", 
+            "EVE", 
+            "LIE", 
+            "IRE", 
+            "TAU", 
+            "SOY", 
+            "OLD", 
+            "GIG", 
+            "ERA"
+        ], 
+        "location": [
+            30.407879000275333, 
+            9.6072809480856716, 
+            74.579124138966066
+        ], 
+        "name": "LAW"
+    }, 
+    {
+        "connected_nodes": [
+            "HAM", 
+            "MAD", 
+            "ASH", 
+            "GIN", 
+            "COY", 
+            "BUG", 
+            "ART", 
+            "ICE", 
+            "BED", 
+            "NAN", 
+            "ACT"
+        ], 
+        "location": [
+            19.678879949625383, 
+            -83.713542028323687, 
+            29.243585849631852
+        ], 
+        "name": "LAX"
+    }, 
+    {
+        "connected_nodes": [
+            "OVA", 
+            "SPY", 
+            "WHO", 
+            "RAW", 
+            "NIX"
+        ], 
+        "location": [
+            -102.80091177704395, 
+            52.272297457303388, 
+            -78.331672122359578
+        ], 
+        "name": "LEG"
+    }, 
+    {
+        "connected_nodes": [
+            "AIM", 
+            "BOX", 
+            "EGO", 
+            "MOM", 
+            "GYM", 
+            "WAX", 
+            "HUG"
+        ], 
+        "location": [
+            -59.909917498148275, 
+            -75.390105865198535, 
+            -104.09779382350862
+        ], 
+        "name": "LID"
+    }, 
+    {
+        "connected_nodes": [
+            "LAW", 
+            "ZAP", 
+            "FAX", 
+            "COW", 
+            "EAR", 
+            "OLD", 
+            "TAU", 
+            "GIG", 
+            "PIG", 
+            "HOT", 
+            "ZOO", 
+            "JAM", 
+            "EVE"
+        ], 
+        "location": [
+            75.847558719889847, 
+            22.727749151132524, 
+            61.354326245460349
+        ], 
+        "name": "LIE"
+    }, 
+    {
+        "connected_nodes": [
+            "COW", 
+            "PAY", 
+            "ETA", 
+            "TAR", 
+            "IVY", 
+            "ODD", 
+            "JAR", 
+            "GAS", 
+            "TUX", 
+            "FIX", 
+            "WHY", 
+            "KEG"
+        ], 
+        "location": [
+            39.449813860651616, 
+            94.821513047948613, 
+            2.6272148846856291
+        ], 
+        "name": "LUG"
+    }, 
+    {
+        "connected_nodes": [
+            "FIX", 
+            "POP", 
+            "YES", 
+            "AIR", 
+            "IRE", 
+            "GIG"
+        ], 
+        "location": [
+            3.8324636914520411, 
+            71.227675224548619, 
+            64.673223062993131
+        ], 
+        "name": "MAC"
+    }, 
+    {
+        "connected_nodes": [
+            "LAX", 
+            "CHI", 
+            "BED", 
+            "ICE", 
+            "ART", 
+            "COY"
+        ], 
+        "location": [
+            33.551935141267982, 
+            -107.71188091954811, 
+            14.431358750740046
+        ], 
+        "name": "MAD"
+    }, 
+    {
+        "connected_nodes": [
+            "INK", 
+            "GUT", 
+            "RUM", 
+            "SIP", 
+            "HEX"
+        ], 
+        "location": [
+            -111.72653122587829, 
+            -43.004279085812527, 
+            -32.810590230969041
+        ], 
+        "name": "MAY"
+    }, 
+    {
+        "connected_nodes": [
+            "AGO", 
+            "GUT", 
+            "MOM", 
+            "OAR", 
+            "AIM", 
+            "HEX", 
+            "WAX", 
+            "ALA"
+        ], 
+        "location": [
+            -114.79449805215285, 
+            -83.700591127716891, 
+            -63.104424880872635
+        ], 
+        "name": "MIX"
+    }, 
+    {
+        "connected_nodes": [
+            "AIM", 
+            "OAR", 
+            "TAX", 
+            "EGO", 
+            "MIX", 
+            "WAX", 
+            "AGO", 
+            "GYM", 
+            "LID", 
+            "GUT"
+        ], 
+        "location": [
+            -84.516903729331432, 
+            -83.483952974000516, 
+            -66.148454664922482
+        ], 
+        "name": "MOM"
+    }, 
+    {
+        "connected_nodes": [
+            "EAR", 
+            "PIG", 
+            "EGG", 
+            "GEL", 
+            "DAD", 
+            "JAM"
+        ], 
+        "location": [
+            139.51443170705949, 
+            31.423583895274813, 
+            38.050461382405153
+        ], 
+        "name": "MOO"
+    }, 
+    {
+        "connected_nodes": [
+            "SOY", 
+            "DUH", 
+            "FAN", 
+            "NAN", 
+            "JUG", 
+            "PLY"
+        ], 
+        "location": [
+            -31.06515028848478, 
+            -44.671357921393167, 
+            74.088546368137145
+        ], 
+        "name": "MOP"
+    }, 
+    {
+        "connected_nodes": [
+            "HAM", 
+            "GIN", 
+            "DUH", 
+            "VOW", 
+            "ACT", 
+            "SOY", 
+            "MOP", 
+            "PLY", 
+            "ZZZ", 
+            "LAX", 
+            "FAN"
+        ], 
+        "location": [
+            -22.161996092546339, 
+            -59.470307135170088, 
+            45.533641165215876
+        ], 
+        "name": "NAN"
+    }, 
+    {
+        "connected_nodes": [
+            "FUN", 
+            "JOB", 
+            "PLY", 
+            "REF", 
+            "BOA", 
+            "ADO"
+        ], 
+        "location": [
+            -90.609786657326026, 
+            -18.003819316884954, 
+            59.594594240514873
+        ], 
+        "name": "NAY"
+    }, 
+    {
+        "connected_nodes": [
+            "WOW", 
+            "COP", 
+            "GET", 
+            "HIP", 
+            "USE"
+        ], 
+        "location": [
+            140.84996025488971, 
+            -44.55817366079129, 
+            -42.555186711922943
+        ], 
+        "name": "NEW"
+    }, 
+    {
+        "connected_nodes": [
+            "TOY", 
+            "AHI", 
+            "JOB", 
+            "JUG", 
+            "ERA", 
+            "ADO", 
+            "EON", 
+            "WET", 
+            "YES", 
+            "PLY"
+        ], 
+        "location": [
+            -54.891099527075937, 
+            22.537167030830794, 
+            60.925072541548268
+        ], 
+        "name": "NIL"
+    }, 
+    {
+        "connected_nodes": [
+            "SPY", 
+            "OVA", 
+            "LEG", 
+            "WHO", 
+            "PIE"
+        ], 
+        "location": [
+            -134.33164365579034, 
+            29.158839885809865, 
+            -74.721699514684772
+        ], 
+        "name": "NIX"
+    }, 
+    {
+        "connected_nodes": [
+            "BIO", 
+            "ARM", 
+            "DIG", 
+            "HIT", 
+            "JOY", 
+            "WET", 
+            "BRO", 
+            "ACE", 
+            "GUN", 
+            "ELF", 
+            "DUI", 
+            "SPY"
+        ], 
+        "location": [
+            -87.389352777083189, 
+            84.254932539842329, 
+            2.8610149368206068
+        ], 
+        "name": "NOM"
+    }, 
+    {
+        "connected_nodes": [
+            "COY", 
+            "WIG", 
+            "FIG", 
+            "KEY", 
+            "ELK", 
+            "KIT", 
+            "BUG", 
+            "GOO", 
+            "ART", 
+            "WOW"
+        ], 
+        "location": [
+            100.10227533947602, 
+            -79.530709986466292, 
+            7.2255055604538478
+        ], 
+        "name": "NOR"
+    }, 
+    {
+        "connected_nodes": [
+            "FOR", 
+            "GET", 
+            "ROB", 
+            "DAD", 
+            "CAB"
+        ], 
+        "location": [
+            151.39168057773676, 
+            22.983181430688905, 
+            -29.403121549139946
+        ], 
+        "name": "OAK"
+    }, 
+    {
+        "connected_nodes": [
+            "MOM", 
+            "TAX", 
+            "AGO", 
+            "FLY", 
+            "ZIG", 
+            "MIX", 
+            "GYM", 
+            "EGO"
+        ], 
+        "location": [
+            -83.829840851880249, 
+            -107.37773212294783, 
+            -43.95027052679216
+        ], 
+        "name": "OAR"
+    }, 
+    {
+        "connected_nodes": [
+            "COW", 
+            "FIX", 
+            "AIR", 
+            "KEG", 
+            "LUG", 
+            "GAS"
+        ], 
+        "location": [
+            41.236025615451275, 
+            94.788663379697056, 
+            35.491026849277496
+        ], 
+        "name": "ODD"
+    }, 
+    {
+        "connected_nodes": [
+            "FRO", 
+            "GUN", 
+            "ASK", 
+            "WHO", 
+            "TAG", 
+            "CIS", 
+            "ORC"
+        ], 
+        "location": [
+            -63.394557798156967, 
+            95.803522761875584, 
+            -73.963996656535159
+        ], 
+        "name": "OFF"
+    }, 
+    {
+        "connected_nodes": [
+            "ALA", 
+            "DRY", 
+            "FLY", 
+            "VOW", 
+            "INK", 
+            "RUM", 
+            "SHY", 
+            "TAX", 
+            "AGO", 
+            "GUT", 
+            "REF"
+        ], 
+        "location": [
+            -103.821547650846, 
+            -61.108904360081254, 
+            -1.6914928016547295
+        ], 
+        "name": "OIL"
+    }, 
+    {
+        "connected_nodes": [
+            "TAU", 
+            "EVE", 
+            "ZAP", 
+            "HOT", 
+            "LIE", 
+            "FOG", 
+            "LAB", 
+            "LAW"
+        ], 
+        "location": [
+            67.203988201203941, 
+            -2.8855757880811117, 
+            83.328591743800743
+        ], 
+        "name": "OLD"
+    }, 
+    {
+        "connected_nodes": [
+            "SIR", 
+            "AGE", 
+            "KIT", 
+            "USE", 
+            "ELK", 
+            "BAR", 
+            "TAT"
+        ], 
+        "location": [
+            71.976187972009512, 
+            -93.490728897935298, 
+            -64.916942036776391
+        ], 
+        "name": "ONO"
+    }, 
+    {
+        "connected_nodes": [
+            "ASK", 
+            "CIS", 
+            "TAG", 
+            "BOY", 
+            "OFF"
+        ], 
+        "location": [
+            -35.957392827725357, 
+            117.07311391484826, 
+            -74.243637085030059
+        ], 
+        "name": "ORC"
+    }, 
+    {
+        "connected_nodes": [
+            "PIE", 
+            "RAD", 
+            "LEG", 
+            "NIX", 
+            "SPY"
+        ], 
+        "location": [
+            -103.81058064573058, 
+            25.927116686008095, 
+            -57.349139436260565
+        ], 
+        "name": "OVA"
+    }, 
+    {
+        "connected_nodes": [
+            "DAY", 
+            "SAY", 
+            "BED", 
+            "DOG", 
+            "GYM", 
+            "ZIG", 
+            "CUP", 
+            "VAN"
+        ], 
+        "location": [
+            -13.836063016841566, 
+            -121.05827745607856, 
+            -38.51808416689029
+        ], 
+        "name": "PAW"
+    }, 
+    {
+        "connected_nodes": [
+            "LUG", 
+            "TUX", 
+            "JAR", 
+            "ETA", 
+            "WHY", 
+            "WIN"
+        ], 
+        "location": [
+            45.504637980471607, 
+            114.50956228931972, 
+            -24.896344768425045
+        ], 
+        "name": "PAY"
+    }, 
+    {
+        "connected_nodes": [
+            "TAR", 
+            "WAS", 
+            "GEL", 
+            "SEX", 
+            "SAW", 
+            "EAR"
+        ], 
+        "location": [
+            112.30766625188302, 
+            76.479741039362423, 
+            11.821195462945088
+        ], 
+        "name": "PHI"
+    }, 
+    {
+        "connected_nodes": [
+            "RAD", 
+            "GAL", 
+            "ELF", 
+            "OVA", 
+            "FEW", 
+            "HOW", 
+            "RUM", 
+            "SPY", 
+            "NIX"
+        ], 
+        "location": [
+            -114.59677967621451, 
+            12.22145107721837, 
+            -35.344991903034938
+        ], 
+        "name": "PIE"
+    }, 
+    {
+        "connected_nodes": [
+            "MOO", 
+            "HOT", 
+            "EAR", 
+            "EGG", 
+            "RUG", 
+            "JAM", 
+            "ALL", 
+            "DAD", 
+            "ZAP", 
+            "PRO", 
+            "LIE", 
+            "GOO"
+        ], 
+        "location": [
+            126.05740125307918, 
+            3.9864477323833212, 
+            47.469636719763791
+        ], 
+        "name": "PIG"
+    }, 
+    {
+        "connected_nodes": [
+            "JUG", 
+            "FAN", 
+            "NAY", 
+            "NAN", 
+            "ERA", 
+            "JOB", 
+            "FUN", 
+            "SOY", 
+            "MOP", 
+            "REF", 
+            "VOW", 
+            "ADO", 
+            "NIL"
+        ], 
+        "location": [
+            -54.017377159758638, 
+            -23.645996788673756, 
+            56.515855870253887
+        ], 
+        "name": "PLY"
+    }, 
+    {
+        "connected_nodes": [
+            "MAC", 
+            "EON", 
+            "FIX", 
+            "YES", 
+            "ACE", 
+            "EYE"
+        ], 
+        "location": [
+            -18.350135983497179, 
+            85.526092816039807, 
+            54.20840943470008
+        ], 
+        "name": "POP"
+    }, 
+    {
+        "connected_nodes": [
+            "HOT", 
+            "ALL", 
+            "ZAP", 
+            "GOO", 
+            "YAK", 
+            "PIG"
+        ], 
+        "location": [
+            121.87289132682666, 
+            -26.178808392586632, 
+            57.331225426112262
+        ], 
+        "name": "PRO"
+    }, 
+    {
+        "connected_nodes": [
+            "PIE", 
+            "GAL", 
+            "BIO", 
+            "ELF", 
+            "OVA", 
+            "SPY"
+        ], 
+        "location": [
+            -118.72649261306323, 
+            42.338778136365171, 
+            -28.376005933735577
+        ], 
+        "name": "RAD"
+    }, 
+    {
+        "connected_nodes": [
+            "FRO", 
+            "SPY", 
+            "GUN", 
+            "WHO", 
+            "JOY", 
+            "LEG"
+        ], 
+        "location": [
+            -85.231490716736943, 
+            80.324152758213657, 
+            -63.102123639533623
+        ], 
+        "name": "RAW"
+    }, 
+    {
+        "connected_nodes": [
+            "BOA", 
+            "RUM", 
+            "HOW", 
+            "ADO", 
+            "VOW", 
+            "DRY", 
+            "NAY", 
+            "SHY", 
+            "FUN", 
+            "PLY", 
+            "OIL"
+        ], 
+        "location": [
+            -98.804849881857592, 
+            -32.372164939267243, 
+            30.370442142403721
+        ], 
+        "name": "REF"
+    }, 
+    {
+        "connected_nodes": [
+            "LAW", 
+            "FOG", 
+            "ERA", 
+            "JUG", 
+            "SOY", 
+            "IRE"
+        ], 
+        "location": [
+            2.4488003277706603, 
+            -0.52887384855113062, 
+            90.721458585950117
+        ], 
+        "name": "RIB"
+    }, 
+    {
+        "connected_nodes": [
+            "CAB", 
+            "AMP", 
+            "DAD", 
+            "GEL", 
+            "SEX", 
+            "OAK"
+        ], 
+        "location": [
+            126.986001169039, 
+            33.354818038211008, 
+            -14.515049762880292
+        ], 
+        "name": "ROB"
+    }, 
+    {
+        "connected_nodes": [
+            "SAD", 
+            "EGG", 
+            "FOR", 
+            "WOW", 
+            "ALL", 
+            "PIG", 
+            "GOO", 
+            "DAD", 
+            "HIP", 
+            "GET"
+        ], 
+        "location": [
+            117.75262941574535, 
+            -16.272121657879261, 
+            0.62939311045632973
+        ], 
+        "name": "RUG"
+    }, 
+    {
+        "connected_nodes": [
+            "INK", 
+            "REF", 
+            "FEW", 
+            "SHY", 
+            "OIL", 
+            "MAY", 
+            "PIE", 
+            "GUT", 
+            "HOW", 
+            "SIP"
+        ], 
+        "location": [
+            -135.94912977166996, 
+            -22.6379659865486, 
+            -26.95186396788802
+        ], 
+        "name": "RUM"
+    }, 
+    {
+        "connected_nodes": [
+            "RUG", 
+            "HIP", 
+            "ALL", 
+            "KEY", 
+            "WOW", 
+            "GOO"
+        ], 
+        "location": [
+            114.12657875865828, 
+            -47.15699606192922, 
+            4.2640283840181263
+        ], 
+        "name": "SAD"
+    }, 
+    {
+        "connected_nodes": [
+            "TAR", 
+            "PHI", 
+            "SEX", 
+            "AMP", 
+            "YAY", 
+            "JAR", 
+            "HAY", 
+            "WHY"
+        ], 
+        "location": [
+            94.480331332777766, 
+            82.097620640331357, 
+            -29.557266431679707
+        ], 
+        "name": "SAW"
+    }, 
+    {
+        "connected_nodes": [
+            "GIN", 
+            "TAX", 
+            "BED", 
+            "DAY", 
+            "PAW", 
+            "ICE", 
+            "WIZ", 
+            "ZIG"
+        ], 
+        "location": [
+            -28.465224487945914, 
+            -116.42072149346313, 
+            -4.6507191024854162
+        ], 
+        "name": "SAY"
+    }, 
+    {
+        "connected_nodes": [
+            "GEL", 
+            "PHI", 
+            "TAR", 
+            "DAD", 
+            "AMP", 
+            "ROB", 
+            "SAW", 
+            "YAY", 
+            "EAR", 
+            "CAB"
+        ], 
+        "location": [
+            124.95579925419047, 
+            62.720359891502511, 
+            -12.970512459796229
+        ], 
+        "name": "SEX"
+    }, 
+    {
+        "connected_nodes": [
+            "BOA", 
+            "RUM", 
+            "DRY", 
+            "REF", 
+            "INK", 
+            "OIL", 
+            "FEW", 
+            "HOW"
+        ], 
+        "location": [
+            -129.50386339046281, 
+            -32.254529350921267, 
+            11.012919725578023
+        ], 
+        "name": "SHY"
+    }, 
+    {
+        "connected_nodes": [
+            "MAY", 
+            "HEX", 
+            "GUT", 
+            "WAX", 
+            "RUM"
+        ], 
+        "location": [
+            -99.537822887740305, 
+            -27.026078123409416, 
+            -54.138141649213182
+        ], 
+        "name": "SIP"
+    }, 
+    {
+        "connected_nodes": [
+            "BAR", 
+            "FLU", 
+            "ELK", 
+            "AGE", 
+            "CUP", 
+            "ONO", 
+            "HUG", 
+            "TAT"
+        ], 
+        "location": [
+            42.605414245506005, 
+            -86.819064926309665, 
+            -84.500377116918401
+        ], 
+        "name": "SIR"
+    }, 
+    {
+        "connected_nodes": [
+            "IVY", 
+            "SUN", 
+            "DUI", 
+            "FOX", 
+            "TUB", 
+            "TAG"
+        ], 
+        "location": [
+            -30.899088353512965, 
+            126.69801691548614, 
+            -13.821848211093162
+        ], 
+        "name": "SKY"
+    }, 
+    {
+        "connected_nodes": [
+            "MOP", 
+            "DUH", 
+            "TRY", 
+            "JUG", 
+            "FOG", 
+            "ERA", 
+            "NAN", 
+            "RIB", 
+            "ACT", 
+            "TAU", 
+            "PLY", 
+            "LAW"
+        ], 
+        "location": [
+            -2.457489355468883, 
+            -26.539717623250745, 
+            72.22179008659576
+        ], 
+        "name": "SOY"
+    }, 
+    {
+        "connected_nodes": [
+            "RAW", 
+            "ELF", 
+            "WHO", 
+            "JOY", 
+            "BIO", 
+            "NIX", 
+            "LEG", 
+            "GUN", 
+            "PIE", 
+            "RAD", 
+            "OVA", 
+            "NOM"
+        ], 
+        "location": [
+            -94.499113414242473, 
+            55.821789001600223, 
+            -44.120724651643357
+        ], 
+        "name": "SPY"
+    }, 
+    {
+        "connected_nodes": [
+            "HIT", 
+            "IVY", 
+            "SKY", 
+            "EYE", 
+            "ACE", 
+            "DUI"
+        ], 
+        "location": [
+            -34.546570882504867, 
+            116.9494967543714, 
+            14.768478389593778
+        ], 
+        "name": "SUN"
+    }, 
+    {
+        "connected_nodes": [
+            "DUI", 
+            "ORC", 
+            "BOY", 
+            "TUB", 
+            "CIS", 
+            "SKY", 
+            "IVY", 
+            "ETA", 
+            "GUN", 
+            "FOX", 
+            "OFF", 
+            "ASK"
+        ], 
+        "location": [
+            -34.247890170985094, 
+            114.20702073892446, 
+            -43.689344620475794
+        ], 
+        "name": "TAG"
+    }, 
+    {
+        "connected_nodes": [
+            "PHI", 
+            "WHY", 
+            "LUG", 
+            "KEG", 
+            "JAR", 
+            "YAY", 
+            "SAW", 
+            "SEX", 
+            "WAS", 
+            "COW", 
+            "EAR"
+        ], 
+        "location": [
+            82.277532134389787, 
+            72.432467555254817, 
+            -1.2344566991780015
+        ], 
+        "name": "TAR"
+    }, 
+    {
+        "connected_nodes": [
+            "ELK", 
+            "USE", 
+            "COP", 
+            "ONO", 
+            "SIR"
+        ], 
+        "location": [
+            77.234168085967866, 
+            -58.500906298310511, 
+            -76.365611511392558
+        ], 
+        "name": "TAT"
+    }, 
+    {
+        "connected_nodes": [
+            "FOG", 
+            "LAM", 
+            "TRY", 
+            "OLD", 
+            "LAB", 
+            "BUG", 
+            "ZAP", 
+            "ACT", 
+            "LIE", 
+            "LAW", 
+            "SOY"
+        ], 
+        "location": [
+            50.991310127514815, 
+            -24.319356479514397, 
+            68.6449564541483
+        ], 
+        "name": "TAU"
+    }, 
+    {
+        "connected_nodes": [
+            "OAR", 
+            "GIN", 
+            "SAY", 
+            "DAY", 
+            "WIZ", 
+            "VOW", 
+            "MOM", 
+            "ZIG", 
+            "AGO", 
+            "GYM", 
+            "FLY", 
+            "OIL"
+        ], 
+        "location": [
+            -68.101268279987693, 
+            -98.798250976724603, 
+            -14.239653984949095
+        ], 
+        "name": "TAX"
+    }, 
+    {
+        "connected_nodes": [
+            "WET", 
+            "NIL", 
+            "DUB", 
+            "JOB", 
+            "ADO", 
+            "EON"
+        ], 
+        "location": [
+            -81.906995042134753, 
+            36.138960445673895, 
+            62.675012281020237
+        ], 
+        "name": "TOY"
+    }, 
+    {
+        "connected_nodes": [
+            "DUH", 
+            "TAU", 
+            "FOG", 
+            "ACT", 
+            "SOY", 
+            "LAM"
+        ], 
+        "location": [
+            25.693807162080656, 
+            -43.485168308409584, 
+            82.417452711077843
+        ], 
+        "name": "TRY"
+    }, 
+    {
+        "connected_nodes": [
+            "DUI", 
+            "ASK", 
+            "TAG", 
+            "DIG", 
+            "SKY", 
+            "GUN"
+        ], 
+        "location": [
+            -62.581866813273628, 
+            125.96640689767163, 
+            -29.511738357134014
+        ], 
+        "name": "TUB"
+    }, 
+    {
+        "connected_nodes": [
+            "IVY", 
+            "ETA", 
+            "PAY", 
+            "GAS", 
+            "LUG", 
+            "FOX"
+        ], 
+        "location": [
+            19.898986452243761, 
+            120.28340602002523, 
+            -9.7719495057671395
+        ], 
+        "name": "TUX"
+    }, 
+    {
+        "connected_nodes": [
+            "ELK", 
+            "WOW", 
+            "COP", 
+            "TAT", 
+            "WIG", 
+            "ONO", 
+            "NEW"
+        ], 
+        "location": [
+            110.82577273811644, 
+            -69.27867321088047, 
+            -51.933038833734514
+        ], 
+        "name": "USE"
+    }, 
+    {
+        "connected_nodes": [
+            "CUP", 
+            "GYM", 
+            "HUG", 
+            "FLU", 
+            "PAW", 
+            "BOX"
+        ], 
+        "location": [
+            -17.506827657418476, 
+            -118.68885883409075, 
+            -78.039139628261481
+        ], 
+        "name": "VAN"
+    }, 
+    {
+        "connected_nodes": [
+            "FAN", 
+            "WIZ", 
+            "DRY", 
+            "NAN", 
+            "REF", 
+            "OIL", 
+            "FLY", 
+            "ZZZ", 
+            "TAX", 
+            "GIN", 
+            "FUN", 
+            "PLY"
+        ], 
+        "location": [
+            -68.108154340011723, 
+            -69.813359503052723, 
+            30.714661291855105
+        ], 
+        "name": "VOW"
+    }, 
+    {
+        "connected_nodes": [
+            "GAL", 
+            "HOW", 
+            "BOA", 
+            "DUB", 
+            "ELF", 
+            "ADO"
+        ], 
+        "location": [
+            -119.75195751109024, 
+            24.174517952262406, 
+            25.014988007850665
+        ], 
+        "name": "WAR"
+    }, 
+    {
+        "connected_nodes": [
+            "COW", 
+            "ZOO", 
+            "PHI", 
+            "KEG", 
+            "EAR", 
+            "TAR"
+        ], 
+        "location": [
+            90.845345759432448, 
+            77.160846984525094, 
+            30.354503073272429
+        ], 
+        "name": "WAS"
+    }, 
+    {
+        "connected_nodes": [
+            "GUT", 
+            "MOM", 
+            "AIM", 
+            "HEX", 
+            "MIX", 
+            "SIP", 
+            "LID"
+        ], 
+        "location": [
+            -110.5448743656076, 
+            -57.162647110863226, 
+            -97.946130018900931
+        ], 
+        "name": "WAX"
+    }, 
+    {
+        "connected_nodes": [
+            "TOY", 
+            "ARM", 
+            "ACE", 
+            "BRO", 
+            "ELF", 
+            "EON", 
+            "ADO", 
+            "DUB", 
+            "YES", 
+            "NOM", 
+            "NIL"
+        ], 
+        "location": [
+            -72.328415906706084, 
+            56.310957137534693, 
+            37.685494751944191
+        ], 
+        "name": "WET"
+    }, 
+    {
+        "connected_nodes": [
+            "RAW", 
+            "SPY", 
+            "GUN", 
+            "LEG", 
+            "FRO", 
+            "OFF", 
+            "NIX"
+        ], 
+        "location": [
+            -117.17458529696815, 
+            83.316270868660993, 
+            -77.686478600588458
+        ], 
+        "name": "WHO"
+    }, 
+    {
+        "connected_nodes": [
+            "KEG", 
+            "TAR", 
+            "JAR", 
+            "LUG", 
+            "PAY", 
+            "SAW"
+        ], 
+        "location": [
+            69.002008463954425, 
+            102.12137080750627, 
+            -10.088318237567073
+        ], 
+        "name": "WHY"
+    }, 
+    {
+        "connected_nodes": [
+            "ELK", 
+            "NOR", 
+            "KEY", 
+            "WOW", 
+            "KIT", 
+            "USE"
+        ], 
+        "location": [
+            113.7560003213689, 
+            -88.197381574589812, 
+            -18.843846694865903
+        ], 
+        "name": "WIG"
+    }, 
+    {
+        "connected_nodes": [
+            "JAR", 
+            "BAH", 
+            "HAY", 
+            "PAY", 
+            "ETA", 
+            "BAM"
+        ], 
+        "location": [
+            46.176931701173494, 
+            106.68725264263726, 
+            -59.261450138113275
+        ], 
+        "name": "WIN"
+    }, 
+    {
+        "connected_nodes": [
+            "GIN", 
+            "VOW", 
+            "TAX", 
+            "SAY", 
+            "ZZZ", 
+            "FLY"
+        ], 
+        "location": [
+            -60.59838651124479, 
+            -102.86843004453152, 
+            20.472122090420299
+        ], 
+        "name": "WIZ"
+    }, 
+    {
+        "connected_nodes": [
+            "KEY", 
+            "RUG", 
+            "SAD", 
+            "HIP", 
+            "NEW", 
+            "COP", 
+            "WIG", 
+            "USE", 
+            "GET", 
+            "ELK", 
+            "NOR", 
+            "GOO"
+        ], 
+        "location": [
+            136.74557218387875, 
+            -60.988243790589188, 
+            -15.418753839726431
+        ], 
+        "name": "WOW"
+    }, 
+    {
+        "connected_nodes": [
+            "BUG", 
+            "LAB", 
+            "ZAP", 
+            "FIG", 
+            "GOO", 
+            "PRO"
+        ], 
+        "location": [
+            100.12174084109732, 
+            -54.373674797637925, 
+            59.855042457132861
+        ], 
+        "name": "YAK"
+    }, 
+    {
+        "connected_nodes": [
+            "TAR", 
+            "JAR", 
+            "SEX", 
+            "AMP", 
+            "CAB", 
+            "BAM", 
+            "HAY", 
+            "SAW"
+        ], 
+        "location": [
+            83.142219098650713, 
+            53.830053039381831, 
+            -46.740611480740377
+        ], 
+        "name": "YAY"
+    }, 
+    {
+        "connected_nodes": [
+            "AHI", 
+            "EON", 
+            "MAC", 
+            "IRE", 
+            "ERA", 
+            "POP", 
+            "WET", 
+            "ACE", 
+            "GIG", 
+            "NIL", 
+            "FIX"
+        ], 
+        "location": [
+            -23.097071165488543, 
+            54.395880861592929, 
+            52.44060387083114
+        ], 
+        "name": "YES"
+    }, 
+    {
+        "connected_nodes": [
+            "PRO", 
+            "YAK", 
+            "HOT", 
+            "LAB", 
+            "LIE", 
+            "GOO", 
+            "TAU", 
+            "BUG", 
+            "OLD", 
+            "PIG"
+        ], 
+        "location": [
+            92.07258402764576, 
+            -23.380293746632933, 
+            57.867365567115094
+        ], 
+        "name": "ZAP"
+    }, 
+    {
+        "connected_nodes": [
+            "DAY", 
+            "TAX", 
+            "OAR", 
+            "PAW", 
+            "GYM", 
+            "SAY"
+        ], 
+        "location": [
+            -47.392326972218584, 
+            -118.76760293075763, 
+            -32.532476405536748
+        ], 
+        "name": "ZIG"
+    }, 
+    {
+        "connected_nodes": [
+            "FAX", 
+            "WAS", 
+            "JAM", 
+            "COW", 
+            "LIE", 
+            "EAR"
+        ], 
+        "location": [
+            87.090021781849913, 
+            55.724073028559587, 
+            57.887878515431034
+        ], 
+        "name": "ZOO"
+    }, 
+    {
+        "connected_nodes": [
+            "HAM", 
+            "VOW", 
+            "WIZ", 
+            "NAN", 
+            "GIN", 
+            "FAN"
+        ], 
+        "location": [
+            -42.1667816272792, 
+            -86.380337305316743, 
+            45.725113417338044
+        ], 
+        "name": "ZZZ"
+    }
+]
