@@ -27,6 +27,9 @@ using namespace std;
 /* math const */
 #define PI 3.141592653589793
 
+/* time interval between captures (usec) */
+#define CAPTURE_INTERVAL 250000
+
 /* retinotopy binning  */
 #define NUM_BINS_ANG 8
 #define NUM_BINS_ECC 4
@@ -36,8 +39,6 @@ using namespace std;
 /* level for a node with no data */
 #define NODE_NO_DATA -1.0
 
-/* list of nodal bin indices */
-#define NODE_LIST_FILE "node_bins.txt"
 
 /******************************************************************************
  ** Support code **************************************************************
@@ -108,6 +109,7 @@ class Retinotopy
     printf("MESSAGE: \"%s\"\n", msg_ptr);
 #endif
 
+    // initialize network socket if not already done
     if (! initialized_udp) {
       memset(&hints, 0, sizeof(hints));
       hints.ai_family   = AF_UNSPEC;
@@ -140,6 +142,7 @@ class Retinotopy
       initialized_udp = true;
     }
 
+    // send update to node lighting multiplexer
     int numbytes;
     if ((numbytes = sendto(sockfd, msg_ptr, strlen(msg_ptr), 0,
              servinfo_ptr->ai_addr, servinfo_ptr->ai_addrlen)) == -1) {
@@ -259,7 +262,7 @@ class Retinotopy
         ipx += 1;
       }
 
-    // normalize 
+    // normalize
     for (int i = 0; i < NUM_BINS_ECC; i++)
       for (int j = 0; j < NUM_BINS_ANG; j++)
         if (count[i * NUM_BINS_ANG + j] > 0)
@@ -308,11 +311,23 @@ class Retinotopy
 int
 main(int argc, char** argv)
 {
-  if (argc != 5) {
-    printf("Usage: %s <left-camera> <right-camera> <mux-host> <mux-port>\n",
+  if (argc != 6) {
+    printf("Usage: %s <left-camera> <right-camera> <node-file> <mux-host> <mux-port>\n"
+           "   where:\n"
+           "     * <left-camera> and <right-camera> are the URLs associated with the\n"
+           "       left and right Dr. Brainlove cameras\n"
+           "     * <node-file> is a text file mapping the brainlove nodes to angle and\n"
+           "       eccentricity bins (two-columns of ints, one row per node)\n"
+           "     * <mux-host> and <mux-port> are the hostname or IP and port to target\n"
+           "       when sending updates to Sean's lighting multiplexer\n\n",
            basename(argv[0]));
     exit(1);
   }
+  const char *cam_url_l = argv[1],
+             *cam_url_r = argv[2],
+             *node_file = argv[3],
+             *mux_host  = argv[4],
+             *mux_port  = argv[5];
 
   // TODO: add additional fault tolerance (camera fail-over if only one
   // responding?)
@@ -323,7 +338,8 @@ main(int argc, char** argv)
     // using primary camera input as a standin for dual VideoCaptures
     vcap_l.open(0);
     vcap_r = vcap_l;
-    /*if (! vcap_l.open(argv[1]) || ! vcap_r.open(argv[2])) {
+
+    /*if (! vcap_l.open(cam_url_l) || ! vcap_r.open(cam_url_r)) {
       if (vcap_l.isOpened())
         vcap_l.release();
       if (vcap_r.isOpened())
@@ -331,11 +347,10 @@ main(int argc, char** argv)
       continue;
     }*/
 
-    Retinotopy ret(NODE_LIST_FILE, argv[3], argv[4]);
-
+    Retinotopy ret(node_file, mux_host, mux_port);
     while (ret.update(vcap_l, vcap_r) == 0)
-      usleep(1000000);
-    
+      usleep(CAPTURE_INTERVAL);
+
     if (vcap_l.isOpened())
       vcap_l.release();
     if (vcap_r.isOpened())
