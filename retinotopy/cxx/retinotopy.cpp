@@ -1,5 +1,6 @@
-#include <vector>
+#include <future>
 #include <sstream>
+#include <vector>
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -309,6 +310,12 @@ class Retinotopy
  ** Main routine **************************************************************
  ******************************************************************************/
 
+void
+open_vcap(VideoCapture *vcap, const char *addr)
+{
+  vcap->open(addr);
+}
+
 int
 main(int argc, char** argv)
 {
@@ -330,33 +337,18 @@ main(int argc, char** argv)
              *mux_host  = argv[4],
              *mux_port  = argv[5];
 
-  // TODO: add additional fault tolerance (camera fail-over if only one
-  // responding?)
+  // if ever we lose our connection to either camera, simply abort and retart
+  // same goes for errors returned by the Retinotopy obj (e.g. socket issues)
   while (1) {
     VideoCapture vcap_l, vcap_r;
-
-    // DEBUGGING
-    // using primary camera input as a standin for dual VideoCaptures
-    //vcap_l.open(0);
-    //vcap_r = vcap_l;
-
-    if (! vcap_l.open(cam_url_l) || ! vcap_r.open(cam_url_r)) {
-      if (vcap_l.isOpened())
-        vcap_l.release();
-      if (vcap_r.isOpened())
-        vcap_r.release();
-      printf("Warning: no capture - retrying ...\n");
-      continue;
+    future<bool> fut_l = async([&](const char *addr){ return vcap_l.open(addr); }, cam_url_l);
+    future<bool> fut_r = async([&](const char *addr){ return vcap_r.open(addr); }, cam_url_r);
+    // .release() method called by destrc
+    if (fut_l.get() && fut_r.get()) {
+      Retinotopy ret(node_file, mux_host, mux_port);
+      while (ret.update(vcap_l, vcap_r) == 0)
+        usleep(CAPTURE_INTERVAL);
     }
-
-    Retinotopy ret(node_file, mux_host, mux_port);
-    while (ret.update(vcap_l, vcap_r) == 0)
-      usleep(CAPTURE_INTERVAL);
-
-    if (vcap_l.isOpened())
-      vcap_l.release();
-    if (vcap_r.isOpened())
-      vcap_r.release();
   }
 
   return 0;

@@ -1,8 +1,8 @@
 CXX = clang++
-CXXFLAGS = -O2
+CXXFLAGS = -O2 --std=c++11
 
 # Install prefix for opencv
-OCV = 
+OCV = $(CV)
 LDFLAGS = -L$(OCV)/lib
 LDLIBS = -lopencv_core -lopencv_highgui -lopencv_imgproc
 
