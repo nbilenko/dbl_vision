@@ -46,7 +46,7 @@ using namespace std;
  ******************************************************************************/
 
 /**
- * Class performing polar binning to dual VideoCapture (left and right "visual
+ * Class performing polar binning on dual VideoCapture (left and right "visual
  * field") objects, and correspondingly updating DrB lighting over UDP
  */
 class Retinotopy
@@ -118,25 +118,25 @@ class Retinotopy
 
       int ret;
       if ((ret = getaddrinfo(mux_host, mux_port, &hints, &servinfo)) != 0) {
-          printf("getaddrinfo: %s\n", gai_strerror(ret));
-          return 1;
+        printf("getaddrinfo: %s\n", gai_strerror(ret));
+        return 1;
       }
 
       for (servinfo_ptr = servinfo;
            servinfo_ptr != NULL;
            servinfo_ptr = servinfo_ptr->ai_next) {
-          if ((sockfd = socket(servinfo_ptr->ai_family,
-                               servinfo_ptr->ai_socktype,
-                               servinfo_ptr->ai_protocol)) == -1) {
-              perror("cannot open socket");
-              continue;
-          }
-          break;
+        if ((sockfd = socket(servinfo_ptr->ai_family,
+                             servinfo_ptr->ai_socktype,
+                             servinfo_ptr->ai_protocol)) == -1) {
+          perror("cannot open socket");
+          continue;
+        }
+        break;
       }
 
       if (servinfo_ptr == NULL) {
-          printf("failed to bind socket\n");
-          return 1;
+        printf("failed to bind socket\n");
+        return 1;
       }
 
       // done
@@ -146,9 +146,10 @@ class Retinotopy
     // send update to node lighting multiplexer
     int numbytes;
     if ((numbytes = sendto(sockfd, msg_ptr, strlen(msg_ptr), 0,
-             servinfo_ptr->ai_addr, servinfo_ptr->ai_addrlen)) == -1) {
-        perror("cannot complete sendto");
-        return 1;
+                           servinfo_ptr->ai_addr,
+                           servinfo_ptr->ai_addrlen)) == -1) {
+      perror("cannot complete sendto");
+      return 1;
     }
 
     // looks like we succeeded
@@ -164,6 +165,7 @@ class Retinotopy
     FILE *f = fopen(fname, "r");
     assert(f != NULL);
 
+    // read labels (angle, eccentricity)
     int angle, eccentricity;
     while (fscanf(f, "%i %i", &angle, &eccentricity) == 2) {
       node_angle.push_back(angle);
