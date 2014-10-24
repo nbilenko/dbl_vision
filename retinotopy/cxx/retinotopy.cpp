@@ -35,10 +35,19 @@ using namespace std;
 #define OSC_ADDR_STRING "/miniBrainVis70n";
 
 /* retinotopy binning  */
-#define NUM_BINS_ANG 8
+// big brainlove
+//#define NUM_BINS_ANG 8
+//#define NUM_BINS_ECC 4
+//#define ANG_OK_RIGHT(i) (i <= 1 || i >= 6)
+//#define ANG_OK_LEFT(i)  (i >= 2 && i <= 5)
+// mini brainlove
+#define NUM_BINS_ANG 6
 #define NUM_BINS_ECC 4
-#define ANG_OK_RIGHT(i) (i <= 1 || i >= 6)
-#define ANG_OK_LEFT(i)  (i >= 2 && i <= 5)
+#define ANG_OK_RIGHT(i) (i == 0 || i == 1 || i == 5)
+#define ANG_OK_LEFT(i)  (i == 2 || i == 3 || i == 4)
+
+/* shift angular bins by 1/2 bin-width */
+#define ANG_BIN_SHIFT
 
 /* whether to update all nodes (including masked nodes with NODE_NO_DATA) */
 // #define UPDATE_ALL_NODES
@@ -244,6 +253,9 @@ class Retinotopy
           double x = j, y = i - ny / 2;
           double r = sqrt(x * x + y * y);
           double theta = atan2(y, x);
+#ifdef ANG_BIN_SHIFT
+          theta += 0.5 * d_ang;
+#endif
           int ib = r / d_ecc;
           while (theta < 0)
             theta += 2 * PI;
@@ -259,6 +271,9 @@ class Retinotopy
           double x = j - nx + 1, y = i - ny / 2;
           double r = sqrt(x * x + y * y);
           double theta = atan2(y, x);
+#ifdef ANG_BIN_SHIFT
+          theta += 0.5 * d_ang;
+#endif
           int ib = r / d_ecc;
           while (theta < 0)
             theta += 2 * PI;
