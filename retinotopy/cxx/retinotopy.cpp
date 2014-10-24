@@ -31,11 +31,17 @@ using namespace std;
 /* time interval between captures (usec) */
 #define CAPTURE_INTERVAL 10000
 
+/* address string for OSC header */
+#define OSC_ADDR_STRING "/miniBrainVis70n";
+
 /* retinotopy binning  */
 #define NUM_BINS_ANG 8
 #define NUM_BINS_ECC 4
 #define ANG_OK_RIGHT(i) (i <= 1 || i >= 6)
 #define ANG_OK_LEFT(i)  (i >= 2 && i <= 5)
+
+/* whether to update all nodes (including masked nodes with NODE_NO_DATA) */
+// #define UPDATE_ALL_NODES
 
 /* level for a node with no data */
 #define NODE_NO_DATA -1.0
@@ -56,6 +62,9 @@ class Retinotopy
   bool have_node_labels;
   vector<int> node_angle, node_eccentricity;
 
+  bool have_node_addrs;
+  vector<int> node_addr_side, node_addr_row, node_addr_col;
+
   bool initialized_binning;
   int nx, ny;
   double d_ang, d_ecc;
@@ -73,17 +82,26 @@ class Retinotopy
   {
     // ensure we have the node labels
     assert(have_node_labels);
+    assert(have_node_addrs);
 
     // build OSC message
     ostringstream msg_stream;
-    msg_stream << "/drbvision";
+    msg_stream << OSC_ADDR_STRING;
     for (int n = 0; n < node_angle.size(); n++) {
-      msg_stream << " ";
-      if (node_angle[n] < 0)
-        msg_stream << NODE_NO_DATA;
-      else {
+      if (node_angle[n] < 0) {
+#ifdef UPDATE_ALL_NODES
+        // node is masked - do nothing
+        msg_stream << " " << node_addr_side[n]
+                   << " " << node_addr_row[n]
+                   << " " << node_addr_col[n]
+                   << " " << NODE_NO_DATA;
+#endif
+      } else {
         int b = node_eccentricity[n] * NUM_BINS_ANG + node_angle[n];
-        msg_stream << (float) mean[b] / 255.0;
+        msg_stream << " " << node_addr_side[n]
+                   << " " << node_addr_row[n]
+                   << " " << node_addr_col[n]
+                   << " " << (float) mean[b] / 255.0;
       }
     }
 
@@ -154,6 +172,29 @@ class Retinotopy
 
     // looks like we succeeded
     return 0;
+  }
+
+  void
+  load_node_addrs(const char *fname)
+  {
+    // already initialized?
+    assert(! have_node_addrs);
+
+    FILE *f = fopen(fname, "r");
+    assert(f != NULL);
+
+    // read labels (L / R, row index, coronal index)
+    int side, row, col;
+    while (fscanf(f, "%i %i %i", &side, &row, &col) == 3) {
+      node_addr_side.push_back(side);
+      node_addr_row.push_back(row);
+      node_addr_col.push_back(col);
+    }
+    cout << "loaded addrs" << endl;
+    fclose(f);
+
+    // done
+    have_node_addrs = true;
   }
 
   void
@@ -278,11 +319,14 @@ class Retinotopy
   public:
 
   Retinotopy(const char *fname_labels,
+             const char *fname_addrs,
              const char *mux_host, const char *mux_port) :
-    have_node_labels(false), initialized_binning(false), initialized_udp(false),
+    have_node_labels(false), have_node_addrs(false),
+    initialized_binning(false), initialized_udp(false),
     mux_host(mux_host), mux_port(mux_port)
   {
     load_node_labels(fname_labels);
+    load_node_addrs(fname_addrs);
   }
 
   ~Retinotopy()
@@ -312,22 +356,19 @@ class Retinotopy
  ** Main routine **************************************************************
  ******************************************************************************/
 
-void
-open_vcap(VideoCapture *vcap, const char *addr)
-{
-  vcap->open(addr);
-}
-
 int
 main(int argc, char** argv)
 {
-  if (argc != 6) {
+  if (argc != 7) {
     printf("Usage: %s <left-camera> <right-camera> <node-file> <mux-host> <mux-port>\n"
            "   where:\n"
            "     * <left-camera> and <right-camera> are the URLs associated with the\n"
            "       left and right Dr. Brainlove cameras\n"
            "     * <node-file> is a text file mapping the brainlove nodes to angle and\n"
-           "       eccentricity bins (two-columns of ints, one row per node)\n"
+           "       eccentricity bins (two columns of ints, one row per node)\n"
+           "     * <node-addr-file> is a text file mapping the brainlove nodes to their\n"
+           "       three-tuple addresses on mini-brainlove (three columns of ints, one\n"
+           "       row per node: [0,1] for L / R hemi, row index, coronal index)\n"
            "     * <mux-host> and <mux-port> are the hostname or IP and port to target\n"
            "       when sending updates to Sean's lighting multiplexer\n\n",
            basename(argv[0]));
@@ -336,18 +377,20 @@ main(int argc, char** argv)
   const char *cam_url_l = argv[1],
              *cam_url_r = argv[2],
              *node_file = argv[3],
-             *mux_host  = argv[4],
-             *mux_port  = argv[5];
+             *addr_file = argv[4],
+             *mux_host  = argv[5],
+             *mux_port  = argv[6];
 
   // if ever we lose our connection to either camera, simply abort and retart
   // same goes for errors returned by the Retinotopy obj (e.g. socket issues)
   while (1) {
     VideoCapture vcap_l, vcap_r;
+    // open streams concurrently to avoid differential lag
     future<bool> fut_l = async([&](const char *addr){ return vcap_l.open(addr); }, cam_url_l);
     future<bool> fut_r = async([&](const char *addr){ return vcap_r.open(addr); }, cam_url_r);
     // .release() method called by destrc
     if (fut_l.get() && fut_r.get()) {
-      Retinotopy ret(node_file, mux_host, mux_port);
+      Retinotopy ret(node_file, addr_file, mux_host, mux_port);
       while (ret.update(vcap_l, vcap_r) == 0)
         usleep(CAPTURE_INTERVAL);
     }
